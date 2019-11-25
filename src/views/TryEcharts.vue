@@ -1,9 +1,10 @@
 <template>
     <div class="chart">
-        <chart :options='orgOptions' />
+        <chart :options='orgOptions' theme="macarons"/>
     </div>
 </template>
 <script>
+import '../../node_modules/echarts/theme/macarons'
 export default {
     name:'tryEcharts',
     data () {
